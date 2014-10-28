@@ -13,7 +13,7 @@ html, body {
 body{
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   padding: 50px;
-  background: #2c3e50;
+  background: #7f8c8d;
   color: #fff;
   margin: 0;
   font-size: 1.5em;
@@ -22,6 +22,20 @@ body{
 h2, h3, h4, h5, h6{
   margin: 0;
   padding: 0;
+}
+
+h2.me {
+  display: table;
+  & > * {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  img {
+    width: 100px;
+  }
+  span {
+    padding-left: 20px;
+  }
 }
 
 h3 {
@@ -38,7 +52,6 @@ a {
 
 .content {
   margin-top: 40px;
-  text-align: center;
 }
 
 img.me-picture {
