@@ -1,0 +1,6 @@
+.top-bar
+    a &lsaquo; home
+ul.photos
+    for photo in public.photosfolder._contents
+        li.photo
+            img(src="/photosfolder/#{ photo }")

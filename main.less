@@ -1,3 +1,5 @@
+@import "photos.less";
+
 .box-sizing(@sizing) {
   -webkit-box-sizing: @sizing;
   -moz-box-sizing: @sizing;
@@ -12,9 +14,8 @@ html, body {
 
 body{
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  padding: 50px;
-  background: #7f8c8d;
-  color: #fff;
+  background: #f9f9f9;
+  color: #333;
   margin: 0;
   font-size: 1.5em;
 }
@@ -25,21 +26,18 @@ h2, h3, h4, h5, h6{
 }
 
 h2.me {
-  display: table;
-  & > * {
-    display: table-cell;
-    vertical-align: middle;
-  }
   img {
     width: 100px;
   }
   span {
     padding-left: 20px;
   }
+  padding-bottom: 20px;
 }
 
 h3 {
   font-size: 0.8em;
+  color: #444;
 }
 
 img {
@@ -47,11 +45,29 @@ img {
 }
 
 a {
-  color: #eee;
+  color: #888;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+ul.links {
+  list-style-type: none;
+  padding: 0;
+  font-size: .8em;
+  li {
+    padding-bottom: 10px;
+  }
+}
+
+.content-top {
+  text-align: center;
+  padding: 40px;
+  background: #F3FBFF;
+  border-bottom: #CDE9F5 1px solid;
 }
 
 .content {
-  margin-top: 40px;
+  text-align: center;
 }
 
 img.me-picture {
