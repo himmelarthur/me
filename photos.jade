@@ -3,4 +3,5 @@
 ul.photos
     for photo in public.photosfolder._contents
         li.photo
-            img(src="/photosfolder/#{ photo }")
+            a(href="/photosfolder/#{ photo }")
+                img(src="/photosfolder/#{ photo }")
