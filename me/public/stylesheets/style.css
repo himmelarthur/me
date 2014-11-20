@@ -1,13 +1,21 @@
 html, body {
     margin: 0;
     padding: 0;
-    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+    font-family: "Crimson Text", "Times New Roman", serif;
     color: #333;
+    background: #FFFCF8;
+    font-size: 17px;
     box-sizing: border-box;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+a {
+    color: #565656;
+    font-weight: bold;
+    letter-spacing: -1px;
 }
 
 p {
@@ -17,9 +25,11 @@ p {
 .top-bar {
     display: table;
     width: 100%;
-    padding: 10px 20px;
-    background: #F5F0EB;
-    border: 1px #E0DBD6 solid;
+    padding: 40px;
+    background: white;
+    border-bottom: 1px #E0DBD6 solid;
+    font-family: "Lato", "Helvetica", "Arial", sans-serif;
+    color: #333;
 }
 
 .top-bar__left, .top-bar__right {
@@ -32,6 +42,11 @@ p {
     font-size: 1.3em;
 }
 
+span.top-bar__lastname {
+    font-weight: bold;
+    color: #666;
+}
+
 ul.top-bar__right {
     letter-spacing: none;
     vertical-align: middle;
@@ -40,5 +55,31 @@ ul.top-bar__right {
 
 ul.top-bar__right li {
     display: inline-block;
-    padding: 0 15px;
+    padding-left: 40px;
+}
+
+.top-bar__right a {
+    text-decoration: none;
+}
+
+.content {
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+    text-align: justify;
+}
+
+.content p {
+    text-indent: 40px;
+    font-size: 1.2em;
+    padding-bottom: 30px;
+}
+
+.content .content__picture-me {
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-bottom: 40px;
+    border-radius: 50px;
+    border: 10px #FDC374 solid;
 }
