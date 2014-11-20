@@ -18,6 +18,10 @@ a {
     letter-spacing: -1px;
 }
 
+a:hover {
+    color: #727272;
+}
+
 p {
     margin: 0;
 }
