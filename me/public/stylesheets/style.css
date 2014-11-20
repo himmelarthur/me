@@ -30,6 +30,10 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .top-bar {
     display: table;
     width: 100%;
@@ -93,7 +97,6 @@ ul.top-bar__right li {
 }
 
 ul.photos {
-    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -103,4 +106,8 @@ li.photo {
     display: inline-block;
     padding: 40px;
     text-align: center;
+}
+
+li.project {
+    border-top: 1px #ddd solid;
 }
