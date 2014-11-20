@@ -6,4 +6,8 @@ router.get('/', function(req, res) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/trackly', function(req, res) {
+    res.redirect('http://arthurhimmel.com:3000');
+})
+
 module.exports = router;
