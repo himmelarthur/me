@@ -26,6 +26,10 @@ p {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 .top-bar {
     display: table;
     width: 100%;
@@ -86,4 +90,17 @@ ul.top-bar__right li {
     margin-bottom: 40px;
     border-radius: 50px;
     border: 10px #FDC374 solid;
+}
+
+ul.photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li.photo {
+    width: 100%;
+    display: inline-block;
+    padding: 40px;
+    text-align: center;
 }
