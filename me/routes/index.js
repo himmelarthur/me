@@ -7,7 +7,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/trackly', function(req, res) {
-    res.redirect('http://arthurhimmel.com:3000');
+  res.redirect('http://arthurhimmel.com:3000');
 })
 
 module.exports = router;
